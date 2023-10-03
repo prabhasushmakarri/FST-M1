@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Examplesuite" >
+    <test name="SuiteTest">
+        <groups>
+            <run>
+                <include name="activity1"/>
+                <include name="activity2"/>
+                <include name="activity3"/>
+                <include name="activity4"/>
+                <include name="activity5"/>
+                <include name="activity6"/>
+                <include name="activity7"/>
+                <include name="activity8"/>
+            </run>
+            
+        </groups>
+        <classes>
+            <class name="Examples.projectselenium"></class>
+        </classes>
+    </test>
+</suite>
